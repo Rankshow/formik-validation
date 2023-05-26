@@ -3,19 +3,25 @@
   flex-direction: column;
   align-items: center;
   margin: 0 auto;
-  height: 500px;
-  max-width: 60%;
+  max-width: 90%;
   border-radius: 20px;
-  background-color: darkolivegreen;
+  background-color: #242325;
+}
+h1{
+  color: #fff;
 }
 .container{
   justify-content: center;
   text-align: center;
+  align-items: center;
+  margin-top: 5em;
+  margin-bottom: 5em;
 }
+
 input{
   padding: 10px;
-  width: 80%;
-  margin-bottom: 10px;
+  width: 100%;
+  margin-bottom: 20px;
 }
 button{
   padding: 10px;
@@ -28,8 +34,21 @@ button:hover{
   color: #ffff;
 }
 input.input-error{
- border: 2px solid red;
+ border: 2px solid #FF1B1C;
 }
 input.input-success {
   border: 2px solid green;
+}
+input:focus{
+  outline: none;
+}
+p.error {
+  color:  #FF1B1C;
+  font-weight: bold;
+  margin-top: 0;
+  margin-left: -.2rem;
+}
+button:disabled {
+  opacity: 0.35;
+  background-color: #B3B3B3;
 }
