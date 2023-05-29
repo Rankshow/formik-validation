@@ -1,0 +1,20 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.checkbox {
+  margin-top: 1em;
+}
+span {
+  margin-left: .8em;
+}
+label{
+  margin: 10px;
+}
+.input-error {
+  border: 1px solid red;
+  padding: 20px;
+  border-radius: 10px;
+}
+
