@@ -16,6 +16,8 @@ const App = () => {
       <div className='App'>
       <div className='container'>
       <Form>
+        
+        <div className='customInput'>       
           <CustomInput 
             label="Username"
             name="username"
@@ -32,9 +34,11 @@ const App = () => {
             <option value="developer">Developer</option>
             <option value="manager">Manager</option>
             <option value="other">Other...</option>
-            </CustomSelect> <br></br>
+            </CustomSelect>
+            </div>
+            <div className='customCheckbox'>
             <CustomCheckBox type="checkbox" name="acceptedTos"/>
-          
+            </div>
         <button type='submit'>Submit</button>
       </Form>
       </div>

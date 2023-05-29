@@ -4,10 +4,10 @@ import React from 'react'
 const CustomSelect = ({label, ...props}) => {
   const [field, meta] = useField(props);
   
-  
+
   return (
     <>
-    <label>{label}</label>
+    <label className='slectLabel'>{label}</label>
      <select 
        {...field}
       {...props}

@@ -13,7 +13,7 @@ const CustomCheckBox = ({label, ...props}) => {
       <input 
         {...field}
         {...props}
-        className={meta.touched && meta.error ? "input-error" : ""}
+        className= {meta.touched && meta.error ? "input-error" : ""}
       />
       <span>I accepts the terms and condition</span>
      </div>
